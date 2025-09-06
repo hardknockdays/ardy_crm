@@ -24,9 +24,11 @@ class ProjectsTableSeeder extends Seeder
                 'id' => 1,
                 'lead_id' => 1,
                 'sales_id' => 1,
-                'status' => 'waiting_approval',
+                'status' => 'ongoing',
                 'created_at' => '2025-09-05 06:48:12',
-                'updated_at' => '2025-09-05 06:48:12',
+                'updated_at' => '2025-09-05 23:20:27',
+                'deleted_at' => NULL,
+                'deleted_by' => NULL,
             ),
             1 => 
             array (
@@ -36,6 +38,8 @@ class ProjectsTableSeeder extends Seeder
                 'status' => 'approved',
                 'created_at' => '2025-09-05 06:48:12',
                 'updated_at' => '2025-09-05 06:48:12',
+                'deleted_at' => NULL,
+                'deleted_by' => NULL,
             ),
             2 => 
             array (
@@ -45,6 +49,19 @@ class ProjectsTableSeeder extends Seeder
                 'status' => 'ongoing',
                 'created_at' => '2025-09-05 06:48:12',
                 'updated_at' => '2025-09-05 06:48:12',
+                'deleted_at' => NULL,
+                'deleted_by' => NULL,
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'lead_id' => 1,
+                'sales_id' => 3,
+                'status' => 'approved',
+                'created_at' => '2025-09-05 23:49:27',
+                'updated_at' => '2025-09-06 00:32:08',
+                'deleted_at' => NULL,
+                'deleted_by' => NULL,
             ),
         ));
         

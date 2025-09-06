@@ -30,6 +30,8 @@ class LeadsTableSeeder extends Seeder
                 'status' => 'new',
                 'created_at' => '2025-09-05 06:48:10',
                 'updated_at' => '2025-09-05 06:48:10',
+                'deleted_at' => NULL,
+                'deleted_by' => NULL,
             ),
             1 => 
             array (
@@ -42,6 +44,8 @@ class LeadsTableSeeder extends Seeder
                 'status' => 'contacted',
                 'created_at' => '2025-09-05 06:48:10',
                 'updated_at' => '2025-09-05 06:48:10',
+                'deleted_at' => NULL,
+                'deleted_by' => NULL,
             ),
             2 => 
             array (
@@ -54,6 +58,22 @@ class LeadsTableSeeder extends Seeder
                 'status' => 'qualified',
                 'created_at' => '2025-09-05 06:48:10',
                 'updated_at' => '2025-09-05 06:48:10',
+                'deleted_at' => NULL,
+                'deleted_by' => NULL,
+            ),
+            3 => 
+            array (
+                'id' => 5,
+                'sales_id' => 1,
+                'name' => 'cobaa',
+                'contact' => '23435345',
+                'address' => 'skdnskd',
+                'needs' => 'Kuota 20TB',
+                'status' => 'new',
+                'created_at' => '2025-09-05 20:28:15',
+                'updated_at' => '2025-09-05 20:28:22',
+                'deleted_at' => '2025-09-05 20:28:22',
+                'deleted_by' => 1,
             ),
         ));
         

@@ -47,7 +47,7 @@ class UsersTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'name' => 'Rudi Manager',
-                'email' => 'rudi.manager@ptsmart.com',
+                'email' => 'rudi@ptsmart.com',
                 'email_verified_at' => NULL,
                 'password' => '$2y$12$DFvPPpQvlYqPGuVJ8MhFFe2rtJ8ztv3p6QYSJHj3rwzzQdsdssnd.',
                 'role' => 'manager',

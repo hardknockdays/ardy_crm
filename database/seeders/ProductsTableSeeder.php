@@ -28,6 +28,8 @@ class ProductsTableSeeder extends Seeder
                 'price' => '240000.00',
                 'created_at' => '2025-09-05 06:48:07',
                 'updated_at' => '2025-09-05 06:48:07',
+                'deleted_at' => NULL,
+                'deleted_by' => NULL,
             ),
             1 => 
             array (
@@ -38,6 +40,8 @@ class ProductsTableSeeder extends Seeder
                 'price' => '375000.00',
                 'created_at' => '2025-09-05 06:48:07',
                 'updated_at' => '2025-09-05 06:48:07',
+                'deleted_at' => NULL,
+                'deleted_by' => NULL,
             ),
             2 => 
             array (
@@ -48,6 +52,20 @@ class ProductsTableSeeder extends Seeder
                 'price' => '650000.00',
                 'created_at' => '2025-09-05 06:48:07',
                 'updated_at' => '2025-09-05 06:48:07',
+                'deleted_at' => NULL,
+                'deleted_by' => NULL,
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'name' => 'Kuota 1TB',
+                'hpp' => '2000000.00',
+                'margin' => '15.00',
+                'price' => '2300000.00',
+                'created_at' => '2025-09-05 21:30:50',
+                'updated_at' => '2025-09-05 21:33:49',
+                'deleted_at' => NULL,
+                'deleted_by' => NULL,
             ),
         ));
         
